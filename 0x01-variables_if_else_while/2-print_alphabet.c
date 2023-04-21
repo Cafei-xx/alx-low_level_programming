@@ -6,10 +6,11 @@
  */
 int main(void)
 {
-	char sl;
-	for (sl = "a"; sl <= "z"; sl++)
+	char sl[26] = "abcdefghijklmnopqrstuvwxyz"
+		int i;
+	for (i = 0; i < 26; i++)
 	{
-		putchar(sl);
+		putchar(sl[i]);
 	}
 	putchar("\n");
 	return (0);
